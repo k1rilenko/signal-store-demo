@@ -1,0 +1,9 @@
+<div class="list">
+  <h1 class="list__title"> Todo List</h1>
+  <div class="list__wrapper">
+    @for (task of store.sortedTasks(); track task.id) {
+     <lib-task [task]="task"></lib-task>
+    }
+  </div>
+  <div class="task-count">Task count:{{store.tasksCount()}}</div>
+</div>
