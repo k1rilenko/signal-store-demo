@@ -1,0 +1,4 @@
+<div class="filter">
+  <button class="filter__button" [class.active]="todoStore.selectedOrder() === 'asc'" (click)="changeOrder('asc')">ASC</button>
+  <button class="filter__button" [class.active]="todoStore.selectedOrder() === 'desc'" (click)="changeOrder('desc')">DESC</button>
+</div>

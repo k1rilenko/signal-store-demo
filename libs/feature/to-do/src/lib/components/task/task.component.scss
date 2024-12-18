@@ -1,6 +1,7 @@
 .task {
   width: max-content;
   display: flex;
+  flex-direction: column;
   padding: 16px;
   border-radius: 16px;
   border: 1px solid black;

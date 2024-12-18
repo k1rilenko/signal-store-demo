@@ -14,3 +14,5 @@ export type TodoState = {
   isLoading: boolean;
   filter: { query: string; order: Order };
 };
+
+export type CreateTask = Omit<Task, 'order' | 'id'>;

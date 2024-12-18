@@ -1,0 +1,8 @@
+.filter {
+  display: flex;
+  &__button {
+    &.active {
+      background-color: crimson;
+    }
+  }
+}
